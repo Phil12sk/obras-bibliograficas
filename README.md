@@ -1,29 +1,27 @@
-# Obras Bibliográficas
+# Teste
 
-(LEIA ATÉ O FINAL)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
-Quando se lista o nome de autores de livros, artigos e outras publicações é comum que se apresente o nome do autor ou dos autores da seguinte forma: sobrenome do autor em letras maiúsculas, seguido de uma vírgula e da primeira parte do nome apenas com as iniciais maiúsculas.
+## Development server
 
-Por exemplo:
-* SILVA, Joao
-* COELHO, Paulo
-* ARAUJO, Celso de
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Seu desafio é fazer um programa que leia um número inteiro correspondendo ao número de nomes que será fornecido, e, a seguir, leia estes nomes (que podem estar em qualquer tipo de letra) e imprima a versão formatada no estilo exemplificado acima.
+## Code scaffolding
 
-As seguintes regras devem ser seguidas nesta formatação:
-* o sobrenome será igual a última parte do nome e deve ser apresentado em letras maiúsculas;
-* se houver apenas uma parte no nome, ela deve ser apresentada em letras maiúsculas (sem vírgula): se a entrada for “ Guimaraes” , a saída deve ser “ GUIMARAES”;
-* se a última parte do nome for igual a "FILHO", "FILHA", "NETO", "NETA", "SOBRINHO", "SOBRINHA" ou "JUNIOR" e houver duas ou mais partes antes, a penúltima parte fará parte do sobrenome. Assim: se a entrada for "Joao Silva Neto", a saída deve ser "SILVA NETO, Joao" ; se a entrada for "Joao Neto" , a saída deve ser "NETO, Joao";
-* as partes do nome que não fazem parte do sobrenome devem ser impressas com a inicial maiúscula e com as demais letras minúsculas;
-* "da", "de", "do", "das", "dos" não fazem parte do sobrenome e não iniciam por letra maiúscula.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Testes por tecnologia
-* [.NET](https://github.com/guideti/obras-bibliograficas/blob/master/TESTE_DOTNET.md)
-* [Ruby](https://github.com/guideti/obras-bibliograficas/blob/master/TESTE_RUBY.md)
-* [Angular](https://github.com/guideti/obras-bibliograficas/blob/master/TESTE_ANGULAR.md)
+## Build
 
-## Procedimento para entrega
-Realize um fork deste repositório, desenvolva sua solução e encaminhe o seu repositório com o seu código. Arquivos compactados não serão aceitos.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Altere o arquivo README para descrever quais componentes foram utilizados e como sua aplicação deverá ser executada.
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
