@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1>Bem-vindo ao formatador de nomes</h1>
+      </div>
+      <div class="col-12">
+        <h4>Digite o nome que deseja formatar e aperte ENTER</h4>
+      </div>
+      <div class="col-12">
+        <input type="text" class="form-control" placeholder="Ex: Joao Silva" aria-label="Recipient's username" aria-describedby="basic-addon2" [(ngModel)]="filterName" (keyup.enter)="onEnter($event)">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <button type="button" class="btn btn-dark" (click)="goToAuthors()">Ir para formatação</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h3>Lista de nomes para formatação</h3>
+            <p *ngFor="let name of listOfNames">
+                {{name.name}}
+            </p>
+        </div>
+    </div>
+  </div>
